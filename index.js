@@ -45,9 +45,6 @@ function init() {
                 type: 'input',
                 name: 'id',
                 message: "What is the Employee's id #? (Required)",
-                // validate: function isPositiveInteger(id) {
-                //     return id >>> 0 === parseFloat(id);
-                // }
                 validate: id => {
                     if (isPositiveInteger(id) > 0) {
                         return true;
