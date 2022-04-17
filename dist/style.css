@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: rgb(226, 221, 119);
+    --secondary: white;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+h3.footer {
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article.card {
+    flex: 200px;
+}
