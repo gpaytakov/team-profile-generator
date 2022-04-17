@@ -97,14 +97,11 @@ const buildTeamPage = employeeCards => {
         </header>
         <main>
             <div class='container'> 
-                <div>
-                    ${employeeCards}
-                <div>
+                
+                ${employeeCards}
+                
             </div>
         </main>
-        <footer>
-            <h3 class='footer'>&copy; ${new Date().getFullYear()} by Guvanchmyrat Paytakov</h3>
-        </footer>
     </body>
   </html>
   `;
