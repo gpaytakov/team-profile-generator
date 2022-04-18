@@ -37,4 +37,4 @@ Once prompts successfully entered, index.html file will be created in dist folde
 ## Credits
 
 ## License
-https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
